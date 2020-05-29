@@ -4,9 +4,13 @@ TELEGRAM_ID = ''
 VK_ID = ''
 
 INTENTS = [
-    {},
-    {},
-    {}
+    {"name": 'Добавить пользователя в список целей.',
+        "tokens": (
+        "регистрация", "добавить", "add","регистрировать", "/add"),
+        "scenario": "registration",
+        "answer": None
+     },
+
 ]
 
 SCENARIOS = {
